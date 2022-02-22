@@ -251,4 +251,27 @@ footer .credit p a {
   color: #1581ff;
   text-decoration: none;
 }
+
+@media (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+  html {
+    font-size: 8px;
+  }
+  header .contact-btn {
+    width: 130%;
+  }
+  header .header-name {
+    width: 100%;
+  }
+  main h2 {
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  main .contact-box form {
+    border: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

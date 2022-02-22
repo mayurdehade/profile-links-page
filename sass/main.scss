@@ -207,3 +207,33 @@ footer{
         }
     }
 }
+
+@media (max-width: 450px){
+    body{
+        width: 100%;
+    }
+    html{
+        font-size: 8px;
+    }
+    header{
+        .contact-btn{
+            width: 130%;
+        }
+        .header-name{
+            width: 100%;
+        }
+    }
+    main{
+        h2{
+            margin: 2rem auto 1rem auto;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        .contact-box{
+            form{
+                border: none;
+            }
+        }
+        
+    }
+}
